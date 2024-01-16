@@ -8,12 +8,12 @@ public class MyCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите первое число: ");
-        int num1 = scanner.nextInt();
+        float num1 = scanner.nextInt();
 
         System.out.print("Введите второе число: ");
-        int num2 = scanner.nextInt();
+        float num2 = scanner.nextInt();
 
-        int result;
+        float result;
 
         System.out.print("Введите действие: ");
         String action = scanner.nextLine();

@@ -8,11 +8,7 @@ public class SwitchWeek {
         System.out.print("Введите число: ");
         int week = sw.nextInt();
         sw.nextLine();
-        System.out.println(SwitchWeek.dayOFWeek(week));
-        //System.out.println("The day is " + day);
-    }
 
-    public static String dayOFWeek(int week) {
         String day = "";
         switch (week) {
             case 1:
@@ -37,9 +33,9 @@ public class SwitchWeek {
                 day = "Sunday";
                 break;
             default:
-                day = "---";
+                day = "Error";
                 break;
         }
-        return day;
+        System.out.print("The day is " + day);
     }
 }
